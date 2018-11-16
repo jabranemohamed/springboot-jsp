@@ -12,5 +12,10 @@ pipeline {
         echo 'Start Unit Testing'
       }
     }
+    stage('Start Selenium Test') {
+      steps {
+        echo 'Selenium Test'
+      }
+    }
   }
 }
