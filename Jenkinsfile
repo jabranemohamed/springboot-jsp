@@ -7,5 +7,10 @@ pipeline {
         echo 'Building the projet'
       }
     }
+    stage('Start Unit Test') {
+      steps {
+        echo 'Start Unit Testing'
+      }
+    }
   }
 }
