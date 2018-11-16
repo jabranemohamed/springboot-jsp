@@ -22,5 +22,10 @@ pipeline {
         echo 'Start Loading Test '
       }
     }
+    stage('Generate Test Report') {
+      steps {
+        echo 'generate Test Report'
+      }
+    }
   }
 }
