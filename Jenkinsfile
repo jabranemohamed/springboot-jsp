@@ -27,5 +27,10 @@ pipeline {
         echo 'generate Test Report'
       }
     }
+    stage('Deploy in Test System') {
+      steps {
+        echo 'Deploy in Test System'
+      }
+    }
   }
 }
