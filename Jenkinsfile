@@ -17,5 +17,10 @@ pipeline {
         echo 'Selenium Test'
       }
     }
+    stage('Start Load Test ') {
+      steps {
+        echo 'Start Loading Test '
+      }
+    }
   }
 }
